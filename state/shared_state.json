@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sessions": [],
+  "_metadata": {
+    "protocol": "VAULT SHARED MEMORY v1.0",
+    "created": "2026-06-20T04:44:42Z",
+    "description": "Append-only distributed memory log for multi-AI agent coordination",
+    "agents": ["chatgpt", "claude", "copilot"],
+    "rules": [
+      "APPEND ONLY - Never modify past sessions",
+      "SINGLE SOURCE OF TRUTH - GitHub is authoritative",
+      "VERSION RULE - Increment by +1 per append",
+      "NO SCHEMATIC DRIFT - No unilateral schema changes",
+      "ERROR HANDLING - Stop and report if state invalid"
+    ]
+  }
+}
